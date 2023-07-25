@@ -2,8 +2,8 @@ import React from 'react'
 import aceit from '../assets/portfolio/aceit.png'
 import installNode from '../assets/portfolio/installNode.jpg'
 import navbar from '../assets/portfolio/flatmate.png'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
-// import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
+// import reactParallax from '../assets/portfolio/reactParallax.jpg'
+import smartcity from '../assets/portfolio/smartcity.jpg'
 // import reactWeather from '../assets/portfolio/reactWeather.jpg'
 
 
@@ -27,9 +27,10 @@ const Portfolio = () => {
         },
         {
             id: 4,
-            src: reactParallax,
-            href: "https://github.com/Rajkumar-kumaravelu/AceIt-BrightMinds"
+            src: smartcity,
+            href: "https://github.com/Rajkumar-kumaravelu/SMARTCITY"
         },
+        
 
     ]
 
