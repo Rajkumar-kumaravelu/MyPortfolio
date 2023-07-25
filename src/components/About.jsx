@@ -8,19 +8,34 @@ const About = () => {
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>ABOUT</p>
                 </div>
 
-                <p className='text-xl mt-20'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Odit, maxime. Explicabo quae quisquam aliquid blanditiis 
-                    consequuntur in tempore ab natus nemo, nisi unde! Velit 
-                    maxime asperiores eos aut optio voluptatibus ea natus 
-                    quidem necessitatibus quos consequatur est, perspiciatis 
-                    qui doloribus harum ipsum, quae culpa? Incidunt est 
-                    cupiditate dolore numquam sunt.
-                    </p>
-                    <br />
+                <p className='text-xl mt-1'>
+                    <p className='text-1xl font-bold inline border-b-4 border-gray-500'>ACADEMIC BACKGROUND</p> <br /> <br />
+                    M.S.    - Information Systems, 2024 - Boston, USA <br /> <br />
+                    M.B.A.  - Pondicherry University, 2016 - Puducherry, India <br /> <br />
+                    B.E.    - Anna University, 2014 - Chennai, India <br /> <br />
+                </p>
 
-                    <p className='text-xl'>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, culpa consectetur vitae nemo eos eius mollitia, incidunt perspiciatis aperiam ad tempora quod numquam, vel excepturi temporibus harum molestiae nesciunt quo.
-                    </p>
+                <p className='text-xl mt-1'>
+                    <p className='text-1xl font-bold inline border-b-4 border-gray-500'>PROFESSIONAL BACKGROUND</p> <br /> <br />
+                    STRAIVE    - Senior Subject Matter Expert, 2016 - 2021 - Puducherry, India <br /> <br />
+                    NPCI  - Associate Certification Operations, 2022 - Chennai, India <br /> <br />
+                </p>
+
+                <p className='text-xl mt-2'>
+                    I develop Full Stack Web applications that are processed and assisted by an automated background processing systems.
+                    I designed and developed a back-end database using MySQL by implementing functions, triggers, and queries. 
+                    I have experience working in Agile/Scrum software development methodology and successfully completed my project deliverables on time.
+                    I believe having an eye for detail and a proficient knowledge of algorithms makes me an ideal candidate 
+                    for software development roles to design and deliver optimal solutions.
+                    I am passionate about discovering new technologies and I am a quick learner.<br />
+                </p>
+                <br />
+
+                {/* <p className='text-xl'>
+                    I worked at Straive and National Payments Corporation of India has helped me improve my coding skills. I believe having an eye for detail and a proficient knowledge of algorithms makes me an ideal candidate 
+                    for software development roles to design and deliver optimal solutions.
+                    I am passionate about discovering new technologies and I am a quick learner.
+                </p> */}
 
             </div>
         </div>

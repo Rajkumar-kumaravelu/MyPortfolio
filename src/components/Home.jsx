@@ -14,8 +14,9 @@ const Home = () => {
                     </h2>
 
                     <p className='text-gray-500 py-4 max-w-md'>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem quam quasi, atque, sequi veniam nobis officiis
-                        quidem dolor minus quod iusto quaerat quae corrupti! Rerum unde minima facere distinctio fugit.
+                    A tech enthusiast who loves coding, currently pursuing my master’s in information systems 
+                    at Northeastern University specializing in Full Stack Web Development, 
+                    and cloud computing.
                     </p>
 
                     <div>
