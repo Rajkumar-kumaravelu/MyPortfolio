@@ -1,6 +1,6 @@
 import React from 'react'
 import aceit from '../assets/portfolio/aceit.png'
-import installNode from '../assets/portfolio/installNode.jpg'
+import flatmate from '../assets/portfolio/flatmate.png'
 // import navbar from '../assets/portfolio/flatmate.png'
 import portfolio from '../assets/portfolio/portfolio.png'
 import smartcity from '../assets/portfolio/smartcity.jpg'
@@ -17,7 +17,7 @@ const Portfolio = () => {
         },
         {
             id: 2,
-            src: installNode,
+            src: flatmate,
             href: "https://github.com/Rajkumar-kumaravelu/FLATMATE-EXPENSE-TRACKER"
         },
         {
