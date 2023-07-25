@@ -1,8 +1,8 @@
 import React from 'react'
 import aceit from '../assets/portfolio/aceit.png'
 import installNode from '../assets/portfolio/installNode.jpg'
-import navbar from '../assets/portfolio/flatmate.png'
-// import reactParallax from '../assets/portfolio/reactParallax.jpg'
+// import navbar from '../assets/portfolio/flatmate.png'
+import portfolio from '../assets/portfolio/portfolio.png'
 import smartcity from '../assets/portfolio/smartcity.jpg'
 // import reactWeather from '../assets/portfolio/reactWeather.jpg'
 
@@ -22,8 +22,8 @@ const Portfolio = () => {
         },
         {
             id: 3,
-            src: navbar,
-            href: "https://github.com/Rajkumar-kumaravelu/FLATMATE-EXPENSE-TRACKER"
+            src: portfolio,
+            href: "https://github.com/Rajkumar-kumaravelu/MyPortfolio"
         },
         {
             id: 4,
