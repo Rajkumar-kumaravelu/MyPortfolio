@@ -4,11 +4,19 @@ import css from '../assets/css.png'
 import javascript from '../assets/javascript.png'
 import reactimages from '../assets/reactimages.jpeg'
 import redis from '../assets/redis.png'
-import spring from '../assets/spring.png'
+import spring from '../assets/spring1.png'
 import java from '../assets/java.png'
 import hibernate from '../assets/hibernate.png'
-// import mongodb from '../assets/mongodb.png'
-import mysql from '../assets/mysql.png'
+import Kafka from '../assets/kafka.jpeg'
+import elasticsearch from '../assets/elasticsearch.svg'
+import git from '../assets/git.png'
+import gitHubActions from '../assets/githubactions.svg'
+import aws from '../assets/aws.png'
+import mongodb from '../assets/mongodb.png'
+import mysql from '../assets/mysql1.png'
+import googlecloud from '../assets/googlecloud.png'
+import pulumi from '../assets/pulumi.svg'
+import packer from '../assets/packer.png'
 
 const Experience = () => {
 
@@ -16,32 +24,32 @@ const Experience = () => {
         {
             id: 1,
             src: java,
-            title:'JAVA',
-            style: 'shadow-red-500'
+            title:'Java',
+            style: 'shadow-blue-500'
         },
         {
             id: 2,
             src: spring,
-            title:'SPRING',
-            style: 'shadow-green-500'
+            title:'Spring',
+            style: 'shadow-blue-500'
         },
         {
             id: 3,
             src: javascript,
-            title:'javascript',
-            style: 'shadow-yellow-500'
+            title:'JavaScript',
+            style: 'shadow-blue-500'
         },
         {
             id: 4,
             src: reactimages,
-            title:'REACT',
+            title:'React',
             style: 'shadow-blue-500'
         },
         {
             id: 5,
             src: html,
             title:'HTML',
-            style: 'shadow-orange-500'
+            style: 'shadow-blue-500'
         },
         {
             id: 6,
@@ -53,26 +61,80 @@ const Experience = () => {
             id: 7,
             src: hibernate,
             title:'HIBERNATE',
-            style: 'shadow-yellow-500'
+            style: 'shadow-blue-500'
         },
 
         {
             id: 8,
             src: mysql,
             title:'MYSQL',
-            style: 'shadow-yellow-500'
+            style: 'shadow-blue-500'
+        },
+        {
+            id: 9,
+            src: redis,
+            title:'REDIS',
+            style: 'shadow-blue-500'
+        },
+    
+        {
+            id: 11,
+            src: Kafka,
+            title:'KAFKA',
+            style: 'shadow-blue-500'
+        },
+        {
+            id: 12,
+            src: elasticsearch,
+            title:'Elasticsearch',
+            style: 'shadow-blue-500'
         },
         {
             id: 10,
-            src: redis,
-            title:'REDIS',
-            style: 'shadow-red-500'
+            src: git,
+            title:'Git',
+            style: 'shadow-blue-500'
         },
+        {
+            id: 17,
+            src: gitHubActions,
+            title:'GitHub Actions',
+            style: 'shadow-blue-500'
+        },
+        {
+            id: 13,
+            src: aws,
+            title:'aws',
+            style: 'shadow-blue-500'
+        },
+        {
+            id: 14,
+            src: mongodb,
+            title:'MongoDb',
+            style: 'shadow-blue-500'
+        },
+        {
+            id: 15,
+            src: googlecloud,
+            title:'Google Cloud',
+            style: 'shadow-blue-500'
+        },
+        {
+            id: 16,
+            src: pulumi,
+            title:'Pulumi',
+            style: 'shadow-blue-500'
+        },
+        {
+            id: 16,
+            src: packer,
+            title:'Packer',
+            style: 'shadow-blue-500'
+        },
+        
+        
 
     ]
-
-
-
 
     return (
         <div name="experience" className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
@@ -80,7 +142,7 @@ const Experience = () => {
 
                 <div>
                     <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>EXPERIENCE</p>
-                    <p className='py-6'>These are the technologies I've worked with</p>
+                    <p className='py-6'>These are the technologies and tools I've worked with</p>
                 </div>
 
 

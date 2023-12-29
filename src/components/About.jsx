@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
     return (
         <div name="about" className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white">
-            <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
+            <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-23'>
                 <div className="pb-8">
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>ABOUT</p>
                 </div>
@@ -27,7 +27,7 @@ const About = () => {
                     I have experience working in Agile/Scrum software development methodology and successfully completed my project deliverables on time.
                     I believe having an eye for detail and a proficient knowledge of algorithms makes me an ideal candidate 
                     for software development roles to design and deliver optimal solutions.
-                    I am passionate about discovering new technologies and I am a quick learner.<br />
+                    I am passionate about discovering new technologies and I am a quick learner.<br/>
                 </p>
                 <br />
 
