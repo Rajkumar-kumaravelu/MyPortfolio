@@ -126,18 +126,16 @@ const Experience = () => {
             style: 'shadow-blue-500'
         },
         {
-            id: 16,
+            id: 17,
             src: packer,
             title:'Packer',
             style: 'shadow-blue-500'
         },
         
-        
-
     ]
 
     return (
-        <div name="experience" className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
+        <div name="experience" className='bg-gradient-to-b from-gray-800 to-black w-full h-1/2'>
             <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
 
                 <div>
