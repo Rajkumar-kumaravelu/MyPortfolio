@@ -17,6 +17,8 @@ import mysql from '../assets/mysql1.png'
 import googlecloud from '../assets/googlecloud.png'
 import pulumi from '../assets/pulumi.svg'
 import packer from '../assets/packer.png'
+import docker from '../assets/docker.png'
+import kubernetes from '../assets/kubernetes.png'
 
 const Experience = () => {
 
@@ -129,6 +131,18 @@ const Experience = () => {
             id: 17,
             src: packer,
             title:'Packer',
+            style: 'shadow-blue-500'
+        },
+        {
+            id: 18,
+            src: docker,
+            title:'Docker',
+            style: 'shadow-blue-500'
+        },
+        {
+            id: 19,
+            src: kubernetes,
+            title:'Kubernetes',
             style: 'shadow-blue-500'
         },
         
