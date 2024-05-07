@@ -137,6 +137,29 @@ const About = () => {
                         </TimelineContent>
                     </TimelineItem>
 
+                    <TimelineItem>
+                    <TimelineOppositeContent
+                            sx={{ m: 'auto 0' }}
+                            variant="body3"
+                            color="#2f8cee"
+                        >
+                            Software Developer <br/>
+                        </TimelineOppositeContent>
+                        <TimelineSeparator>
+                            <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
+                            <TimelineDot color="primary" variant="outlined">
+                                <SchoolOutlinedIcon />
+                            </TimelineDot>
+                            <TimelineConnector />
+                        </TimelineSeparator>
+                        <TimelineContent sx={{ py: '12px', px: 2 }}>
+                            <Typography variant="h6" component="span">
+                                LeadHawk
+                            </Typography>
+                            <Typography>2023</Typography>
+                        </TimelineContent>
+                    </TimelineItem>
+
                 </Timeline>
 
                 {/* ===================================================================================================================== */}
