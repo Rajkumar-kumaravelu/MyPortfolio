@@ -156,6 +156,7 @@ const About = () => {
                             <Typography variant="h6" component="span">
                                 LeadHawk
                             </Typography>
+                            <Typography>Intern</Typography>
                             <Typography>2023</Typography>
                         </TimelineContent>
                     </TimelineItem>
