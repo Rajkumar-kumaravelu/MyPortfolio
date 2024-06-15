@@ -75,7 +75,7 @@ const About = () => {
                             variant="body3"
                             color="#2f8cee"
                         >
-                            Senior Subject Matter Expert - Software Developer
+                            Software Engineer (SSME)
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineConnector />
@@ -97,7 +97,7 @@ const About = () => {
                             variant="body3"
                             color="#2f8cee"
                         >
-                            Associate Certification Operations - Software Developer
+                            Software Engineer
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
@@ -143,7 +143,7 @@ const About = () => {
                             variant="body3"
                             color="#2f8cee"
                         >
-                            Software Developer <br/>
+                            Software Engineer <br/>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
                             <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
@@ -156,7 +156,7 @@ const About = () => {
                             <Typography variant="h6" component="span">
                                 LeadHawk
                             </Typography>
-                            <Typography>Intern</Typography>
+                            <Typography>Coop</Typography>
                             <Typography>2023</Typography>
                         </TimelineContent>
                     </TimelineItem>
